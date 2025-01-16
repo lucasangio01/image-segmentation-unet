@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "image-segmentation-unet"
+version = "1.0.0"
+description = "Deep learning project on the segmentation of biomedical ultrasound images with a U-Net convolutinoal neurla network, using PyTorch."
+authors = ["lucasangio01 <luca.sangiovanni.2001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

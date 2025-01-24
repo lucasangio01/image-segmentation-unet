@@ -8,6 +8,11 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 jupyter = "^1.1.1"
+matplotlib = "^3.10.0"
+torch = "^2.5.1"
+tqdm = "^4.67.1"
+pandas = "^2.2.3"
+torchvision = "^0.20.1"
 
 
 [build-system]

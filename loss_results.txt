@@ -1,0 +1,109 @@
+UNET --> BCE + SGD - 100 epochs (stop after 92):
+Validation loss: 0.042
+Dice score: 0.372
+
+------------------------------------------------------
+
+UNET --> BCE + ADAMW - 100 epochs (no stop):
+Validation loss: 0.041
+Dice score: 0.377
+
+------------------------------------------------------
+
+UNET --> DICE + SGD - 100 epochs (stop after 55):
+Validation loss: 0.629
+Dice score: 0.371
+
+-------------------------------------------------------
+
+UNET --> DICE + ADAMW - 100 epochs (stop after 38):
+Validation loss: 0.662
+Dice score: 0.337
+
+-------------------------------------------------------
+
+UNET --> TVERSKY + SGD - 100 epochs (stop after 64):
+Validation loss: 0.642
+Dice score: 0.385
+
+-------------------------------------------------------
+
+UNET --> TVERSKY + ADAMW - 100 epochs (stop after 99):
+Validation loss: 0.650
+Dice score: 0.374
+
+-------------------------------------------------------
+
+UNET++ --> BCE + SGD - 100 epochs (stop after 74):
+Validation loss: 0.042
+Dice score: 0.371
+
+------------------------------------------------------
+
+UNET++ --> BCE + ADAMW - 100 epochs (stop after 92):
+Validation loss: 0.044
+Dice score: 0.380
+
+------------------------------------------------------
+
+UNET++ --> DICE + SGD - 100 epochs (stop after 47):
+Validation loss: 0.618
+Dice score: 0.381
+
+------------------------------------------------------
+
+UNET++ --> DICE + ADAMW - 100 epochs (no stop):
+Validation loss: 0.624
+Dice score: 0.375
+
+-------------------------------------------------------
+
+UNET++ --> TVERSKY + SGD - 100 epochs (stop after 68):
+Validation loss: 0.645
+Dice score: 0.382
+
+-------------------------------------------------------
+
+UNET++ --> TVERSKY + ADAMW - 100 epochs (stop after 98):
+Validation loss: 0.645
+Dice score: 0.380
+
+--------------------------------------------------------
+
+ATT UNET --> BCE + SGD - 100 epochs (stop after 41):
+Validation loss: 0.039
+Dice score: 0.373
+
+--------------------------------------------------------
+
+ATT UNET --> BCE + ADAMW - 100 epochs (stop after 81):
+Validation loss: 0.038
+Dice score: 0.379
+
+--------------------------------------------------------
+
+ATT UNET --> DICE + SGD - 100 epochs (stop after 37):
+Validation loss: 0.639
+Dice score: 0.361
+
+--------------------------------------------------------
+
+ATT UNET --> DICE + ADAMW - 100 epochs (stop after 76):
+Validation loss: 0.626
+Dice score: 0.373
+
+--------------------------------------------------------
+
+ATT UNET --> TVERSKY + SGD - 100 epochs (stop after 60):
+Validation loss: 0.646
+Dice score: 0.383
+
+--------------------------------------------------------
+
+ATT UNET --> TVERSKY + ADAMW - 100 epochs (no stop):
+Validation loss: 0.652
+Dice score: 0.383
+
+--------------------------------------------------------
+
+BEST: unetpp_dice_adamw (img #6569)
